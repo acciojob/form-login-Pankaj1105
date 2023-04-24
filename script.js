@@ -1,8 +1,7 @@
-function getFormvalue() {
+function getFormvalue(a,b) {
     //Write your code here
-	var fame=document.getElementById("fname").value;
-    var lame=document.getElementById("lname").value;
-	
-	alert(fame+" "+lame);
+	const firstName = document.getElementById("first-name").value;
+  const lastName = document.getElementById("last-name").value;
 
+  alert(firstName+lastName);
 }
